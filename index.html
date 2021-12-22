@@ -41,14 +41,14 @@ emailjs.init("user_2jIT9NA6dfZ3X4lKgbInB");
             </li>
 
             <li class="nav__link">
-                <a href="#" class="
+                <a href="#"onclick="toggleModal()"  class="
                 nav__link--anchor
                 link__hover-effect
                 link__hover-effect--black
                 ">Contact</a>
             </li>
 
-            <li class="nav__link click">
+            <li class="nav__link click" onclick="toggleContrast()">
                 <a href="#" class="
                 nav__link--anchor
                 link__hover-effect
@@ -62,10 +62,10 @@ emailjs.init("user_2jIT9NA6dfZ3X4lKgbInB");
        <header class="header">
         <div class="header__content">
             <h1 class="title">Hey</h1>
-            <h1 class="title title--secondary">I'm Mr Vu</h1>
+            <h1 class="title--secondary blue">I'm Mr Vu</h1>
             <P class="header__para">Im a <b class="blue">professional frontend programmer</b>  with a strong passion for xyz
                 <br>
-                Here's a bit more <b class="blue">about me</b>
+                Here's a bit more <b class="blue click" onclick="toggleModal()">about me</b>
             </P>
             <div class="social__list">
                 <a href="" class="social__link click" >

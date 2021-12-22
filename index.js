@@ -1,7 +1,21 @@
 // template_ivv5v7f
 // service_tj4vxst
 // user_2jIT9NA6dfZ3X4lKgbInB
+let isModalOpen = false;
+let contrastToggle = false;
 
+
+
+function toggleContrast(){
+    contrastToggle = !contrastToggle
+
+    if(contrastToggle){
+        document.body.classList += " dark-theme"
+    }
+    else{
+        document.body.classList.remove("dark-theme")
+    }
+}
 
  function contact(event){
     event.preventDefault();
@@ -27,7 +41,7 @@
 
 }
 
-let isModalOpen = false;
+
 function toggleModal(){
     if(isModalOpen){
         isModalOpen=false
